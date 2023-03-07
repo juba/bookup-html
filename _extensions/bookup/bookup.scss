@@ -439,9 +439,9 @@ $h4-font-size: 1.25em;
     a code,
     ul code,
     ol code {
-        color: var(--code-block-color);
-        background-color: var(--code-block-bg);
-        border-color: var(--code-block-bg);
+        color: var(--code-color);
+        background-color: var(--code-bg);
+        border-color: var(--code-bg);
         padding: 2px 4px;
         font-size: 85%;
         border-radius: 4px;
@@ -537,6 +537,19 @@ $h4-font-size: 1.25em;
             width: 1.1rem;
             background-size: 1.1rem 1.1rem;
         }
+
+        /* Inline code in callout */
+        p>code,
+        a code,
+        ul code,
+        ol code {
+            color: var(--callout-color);
+            background-color: transparent;
+            border: none;
+            padding: 2px 4px;
+            font-size: 100%;
+        }
+
 
     }
 
