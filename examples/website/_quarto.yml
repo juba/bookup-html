@@ -6,6 +6,7 @@ website:
   search: true
   reader-mode: true
   navbar:
+    background: "#2e3f58"
     left:
       - href: index.qmd
         text: Home
