@@ -5,6 +5,7 @@ $body-color: #cad2dd;
 $footer-bg: #1c1f2b;
 $footer-fg: #cad2dd;
 
+
 /*-- scss:rules --*/
 
 :root {
@@ -30,7 +31,9 @@ $footer-fg: #cad2dd;
 
     --hl-code-comments: #8e8d8c;
 
-    --footer-border-top: 1px solid #2d3143;
+    --footer-border-top: #2d3143;
+
+    --header-navbar-bg: #2e3f58;
 
     --table-tr-border: #50616e;
     --table-out-borders: #888;

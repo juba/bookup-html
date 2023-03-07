@@ -36,7 +36,9 @@ $h4-font-size: 1.25em;
 
     --hl-code-comments: #696867;
 
-    --footer-border-top: none;
+    --footer-border-top: #dee2e6;
+
+    --header-navbar-bg: #2e3f58;
 
     --table-tr-border: #dee2e6;
     --table-out-borders: #aaa;
@@ -124,23 +126,25 @@ $h4-font-size: 1.25em;
 
 #quarto-sidebar {
     border-color: var(--sidebar-border) !important;
+
+    #quarto-search {
+        form {
+            border-color: var(--sidebar-input-border);
+            background-color: var(--sidebar-form-bg);
+        }
+
+        form,
+        svg,
+        input {
+            color: var(--sidebar-fg) !important;
+        }
+    }
+
 }
 
+#quarto-sidebarnav-toggle+#quarto-sidebar,
 #quarto-toc-toggle+#quarto-sidebar {
     border: none !important;
-}
-
-#quarto-search {
-    form {
-        border-color: var(--sidebar-input-border);
-        background-color: var(--sidebar-form-bg);
-    }
-
-    form,
-    svg,
-    input {
-        color: var(--sidebar-fg) !important;
-    }
 }
 
 
@@ -613,6 +617,12 @@ $h4-font-size: 1.25em;
 
 body:not(.floating) {
     .nav-footer {
-        border-top: var(--footer-border-top);
+        border-top: 1px solid var(--footer-border-top);
     }
+}
+
+/* Header nav bar */
+
+#quarto-header .navbar {
+    background-color: var(--header-navbar-bg);
 }
