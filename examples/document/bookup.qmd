@@ -111,7 +111,7 @@ ggplot(data = penguins) +
 
 
 ::: {.callout-note}
-This is a note callout
+This is a note callout. With a bit of `code`.
 :::
 
 ::: {.callout-warning}
