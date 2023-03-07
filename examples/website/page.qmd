@@ -1,0 +1,5 @@
+---
+title: "Page"
+---
+
+This is a very nice website page.

@@ -1,0 +1,35 @@
+project:
+  type: book
+
+execute:
+  freeze: auto
+
+book:
+  title: "Sample bookup-html book"
+  author: "Jane Doe"
+  date: today
+  downloads: [pdf, epub]
+  doi: "10.XXX/XXX"
+  url: https://example.com
+  repo-url: https://github.com
+  repo-actions: edit
+  search: true
+  reader-mode: true
+  sidebar:
+    style: "docked"
+  chapters:
+    - index.qmd
+    - part: "Content"
+      chapters:
+        - intro.qmd
+        - summary.qmd
+  appendices:
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  bookup-html
+
+
+

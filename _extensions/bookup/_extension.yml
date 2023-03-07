@@ -1,0 +1,12 @@
+title: Bookup
+author: Julien Barnier
+version: 0.1.0
+quarto-required: ">=1.2.335"
+contributes:
+  formats:
+    html:
+      toc: true
+      filters: [embed-fonts.lua]
+      theme:
+        light: [default, bookup.scss]
+        dark: [default, bookup.scss, bookup_dark.scss]

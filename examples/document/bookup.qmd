@@ -1,0 +1,132 @@
+---
+title: "Bookup template example"
+date: today
+author: "juba"
+format:
+  bookup-html:
+    embed-fonts: true
+self-contained: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+
+library(knitr)
+```
+
+## Code and tables
+
+### Syntax highlighting
+
+Here is a sample code chunk, just to show that syntax highlighting works as expected.
+
+```{r}
+#| label: sh
+#| echo: true
+#| eval: true
+say_hello <- function(name) {
+    paste("Hello,", name, "!")
+}
+
+say_hello("world")
+```
+
+
+### Verbatim
+
+Here is the structure of the `penguins` dataset.
+
+```{r}
+#| label: penguins_str
+#| echo: true
+library(palmerpenguins)
+str(penguins)
+```
+
+### Table
+
+Sample table output.
+
+```{r}
+#| label: table
+tab <- table(penguins$island, penguins$species)
+kable(tab)
+```
+
+Sample `DT:datatable` output.
+
+```{r}
+#| label: dt
+library(DT)
+DT::datatable(penguins)
+```
+
+
+## Styling
+
+A simple list : 
+
+- one mississipi
+- two mississipi
+- three mississipi
+
+
+A blockquote :
+
+> Oh ! What a nice blockquote you have here. Much more wonderful than a classical Lorem Ipsum, really.
+
+And we could also [include links](https://www.r-project.org/) or simply URLs like this : https://www.r-project.org/
+
+An incredibly complex equation :
+
+$$ y = \sqrt{\frac{1}{x + \beta}} $$
+
+
+## Figures
+
+Here is an histogram.
+
+```{r}
+#| label: hist
+library(ggplot2)
+ggplot(data = penguins) +
+    geom_histogram(aes(x = body_mass_g)) +
+    facet_grid(species ~ .)
+
+```
+
+And a wonderful scatterplot, with a caption.
+
+```{r}
+#| label: scatter
+#| fig.cap: "This is a scatterplot"
+ggplot(data = penguins) +
+    geom_point(aes(x = bill_length_mm, y = bill_depth_mm))
+```
+
+
+### Callouts
+
+
+::: {.callout-note}
+This is a note callout
+:::
+
+::: {.callout-warning}
+This is a warning callout
+:::
+
+::: {.callout-important}
+This is an important callout
+:::
+
+::: {.callout-caution}
+This is a caution callout
+:::
+
+::: {.callout-tip}
+This is a tip callout
+:::
+

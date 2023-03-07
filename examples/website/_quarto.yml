@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "website"
+  search: true
+  reader-mode: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: "More"
+        menu:
+          - page.qmd
+          - about.qmd       
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Pages"
+        contents:
+          - index.qmd
+          - page.qmd
+          - about.qmd
+  page-footer: 
+    left: "This is a damn fine footer"
+    right: 
+      - icon: github
+        href: https://github.com/
+
+format:
+  bookup-html:
+    embed-fonts: true
+
+

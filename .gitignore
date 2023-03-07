@@ -1,0 +1,9 @@
+*_files
+*.html
+/.luarc.json
+_freeze/
+_book/
+_site
+.quarto/
+examples/**.html
+examples/*/fonts/
