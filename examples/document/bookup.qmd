@@ -1,5 +1,5 @@
 ---
-title: "Bookup template example"
+title: "Bookup custom format example"
 date: today
 author: "juba"
 format:
