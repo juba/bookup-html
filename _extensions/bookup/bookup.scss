@@ -38,8 +38,6 @@ $h4-font-size: 1.25em;
 
     --footer-border-top: #dee2e6;
 
-    --header-navbar-bg: #2e3f58;
-
     --table-tr-border: #dee2e6;
     --table-out-borders: #aaa;
     --table-tr-hover: rgba(0, 0, 0, 0.07);
@@ -619,10 +617,4 @@ body:not(.floating) {
     .nav-footer {
         border-top: 1px solid var(--footer-border-top);
     }
-}
-
-/* Header nav bar */
-
-#quarto-header .navbar {
-    background-color: var(--header-navbar-bg);
 }
