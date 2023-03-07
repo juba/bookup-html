@@ -8,5 +8,5 @@ contributes:
       toc: true
       filters: [embed-fonts.lua]
       theme:
-        light: [default, bookup.scss]
-        dark: [default, bookup.scss, bookup_dark.scss]
+        light: [bookup.scss]
+        dark: [bookup.scss, bookup_dark.scss]
