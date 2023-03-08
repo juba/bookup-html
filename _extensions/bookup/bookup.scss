@@ -679,9 +679,11 @@ header {
         border-bottom: 1px solid var(--header-footer-border);
 
         a,
-        .btn {
+        .btn,
+        code {
             color: var(--bs-body-color) !important;
         }
+
     }
 }
 
