@@ -36,7 +36,7 @@ $h4-font-size: 1.25em;
 
     --hl-code-comments: #696867;
 
-    --footer-border-top: #dee2e6;
+    --header-footer-border: #dee2e6;
 
     --table-tr-border: #dee2e6;
     --table-out-borders: #aaa;
@@ -509,6 +509,14 @@ $h4-font-size: 1.25em;
         border: none;
     }
 
+    .code-annotation-gutter {
+        background-color: var(--code-block-bg);
+    }
+
+    a.code-annotation-anchor:hover {
+        text-decoration: none;
+    }
+
     code {
 
         span.kw,
@@ -661,10 +669,19 @@ $h4-font-size: 1.25em;
 
 }
 
+
+/* Header secondary nav bottom border */
+
+header {
+    .quarto-secondary-nav {
+        border-bottom: 1px solid var(--header-footer-border);
+    }
+}
+
 /* Footer top border */
 
 body:not(.floating) {
     .nav-footer {
-        border-top: 1px solid var(--footer-border-top);
+        border-top: 1px solid var(--header-footer-border);
     }
 }
