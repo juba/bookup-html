@@ -11,7 +11,7 @@ toc: true
 
 This is a default template for the `bookup-html` custom quarto format.
 
-## More Information
+You can learn more about `bookup` in its [Github repository](https://github.com/juba/bookup-html).
 
-You can learn more about controlling the appearance of HTML output here: <https://quarto.org/docs/output-formats/html-basics.html>
+You can learn more about controlling the appearance of HTML output at the [quarto website](https://quarto.org/docs/output-formats/html-basics.html).
 
