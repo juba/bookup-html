@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This would be a nice about page if it had any content.

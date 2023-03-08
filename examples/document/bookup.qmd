@@ -9,6 +9,11 @@ self-contained: true
 ---
 
 
+This is a sample document using the `bookup-html` custom [quarto](https://quarto.org) format.
+
+You can learn more on this format and how to use it in the [bookup-html Github repository](https://github.com/juba/bookup-html).
+
+
 ```{r}
 #| label: setup
 #| include: false
@@ -27,7 +32,7 @@ Here is a sample code chunk, just to show that syntax highlighting works as expe
 #| echo: true
 #| eval: true
 say_hello <- function(name) {
-    paste("Hello,", name, "!")  # <1>
+    paste("Hello,", name, "!") # <1>
 }
 
 say_hello("world") # <2>
@@ -76,9 +81,9 @@ A simple list :
 
 A blockquote :
 
-> Oh ! What a nice blockquote you have here. Much more wonderful than a classical Lorem Ipsum, really.
+> Oh ! What a nice blockquote you have here. Much more wonderful than a classical lorem ipsum, really.
 
-And we could also [include links](https://www.r-project.org/) or simply URLs like this : https://www.r-project.org/
+And we could also [include links](https://www.r-project.org/) or simply URLs like this : <https://www.r-project.org/>^[And even footnotes].
 
 An incredibly complex equation :
 
@@ -94,8 +99,7 @@ Here is an histogram.
 library(ggplot2)
 ggplot(data = penguins) +
     geom_histogram(aes(x = body_mass_g)) +
-    facet_grid(species ~ .)
-
+    facet_grid(rows = vars(species))
 ```
 
 And a wonderful scatterplot, with a caption.
@@ -104,15 +108,18 @@ And a wonderful scatterplot, with a caption.
 #| label: scatter
 #| fig.cap: "This is a scatterplot"
 ggplot(data = penguins) +
-    geom_point(aes(x = bill_length_mm, y = bill_depth_mm))
+    geom_point(
+        aes(x = bill_length_mm, y = bill_depth_mm)
+    )
 ```
 
 
 ### Callouts
 
 
+
 ::: {.callout-note}
-This is a note callout. With a bit of `code`.
+This is a note callout.
 :::
 
 ::: {.callout-warning}
@@ -128,6 +135,6 @@ This is a caution callout
 :::
 
 ::: {.callout-tip}
-This is a tip callout
+This is a tip callout.With a bit of `code`.
 :::
 

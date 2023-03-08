@@ -1,7 +1,12 @@
 ---
-title: "website"
+title: "Home"
 ---
 
-This is a Quarto website.
+# Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a sample quarto website project using the `bookup-html` custom [quarto](https://quarto.org) format.
+
+You can learn more on this format and how to use it in the [bookup-html Github repository](https://github.com/juba/bookup-html).
+
+
+

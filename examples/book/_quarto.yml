@@ -5,13 +5,13 @@ execute:
   freeze: auto
 
 book:
-  title: "Sample bookup-html book"
+  title: "Sample bookup-html book project"
   author: "Jane Doe"
   date: today
   downloads: [pdf, epub]
   doi: "10.XXX/XXX"
   url: https://example.com
-  repo-url: https://github.com
+  repo-url: https://github.com/juba/bookup-html/tree/main/examples/book
   repo-actions: edit
   search: true
   reader-mode: true
@@ -21,7 +21,7 @@ book:
     - index.qmd
     - part: "Content"
       chapters:
-        - intro.qmd
+        - sample.qmd
         - summary.qmd
   appendices:
     - references.qmd

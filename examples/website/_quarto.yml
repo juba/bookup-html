@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "Sample bookup-html website project"
   search: true
   reader-mode: true
   navbar:
@@ -14,9 +14,8 @@ website:
       - text: "More"
         menu:
           - page.qmd
-          - about.qmd       
   sidebar:
-    style: "docked"
+    style: "floating"
     contents:
       - section: "Pages"
         contents:
@@ -24,10 +23,10 @@ website:
           - page.qmd
           - about.qmd
   page-footer: 
-    left: "This is a damn fine footer"
+    left: "This is quite a fine footer."
     right: 
       - icon: github
-        href: https://github.com/
+        href: https://github.com/juba/bookup-html
 
 format:
   bookup-html:
