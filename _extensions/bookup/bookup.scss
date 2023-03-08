@@ -149,7 +149,8 @@ $h4-font-size: 1.25em;
 /* Table of contents */
 
 #quarto-margin-sidebar,
-#quarto-content .margin-sidebar {
+#quarto-content .margin-sidebar,
+#quarto-sidebar #TOC {
     code {
         font-size: inherit;
         color: inherit;
