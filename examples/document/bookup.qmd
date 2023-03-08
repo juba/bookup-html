@@ -25,7 +25,7 @@ library(knitr)
 
 ### Syntax highlighting
 
-Here is a sample code chunk, just to show that syntax highlighting works as expected.
+Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.
 
 ```{r}
 #| label: sh
