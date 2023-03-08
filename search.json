@@ -1,51 +1,23 @@
 [
   {
+    "objectID": "page.html",
+    "href": "page.html",
+    "title": "Page",
+    "section": "",
+    "text": "This is a very nice website page."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sample bookup-html book",
+    "title": "website",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
-  },
-  {
-    "objectID": "intro.html#code-and-tables",
-    "href": "intro.html#code-and-tables",
-    "title": "1  Introduction",
-    "section": "1.1 Code and tables",
-    "text": "1.1 Code and tables\n\n1.1.1 Syntax highlighting\nHere is a sample code chunk1, just to show that syntax highlighting works as expected.\n\nsay_hello &lt;- function(name) {\n    paste(\"Hello,\", name, \"!\")\n}\n\nsay_hello(\"world\")\n\n[1] \"Hello, world !\"\n\n\n\n\n1.1.2 Verbatim\nHere is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...\n\n\n\n\n1.1.3 Table\nSample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)"
-  },
-  {
-    "objectID": "intro.html#styling",
-    "href": "intro.html#styling",
-    "title": "1  Introduction",
-    "section": "1.2 Styling",
-    "text": "1.2 Styling\nA simple list :\n\none mississipi\ntwo mississipi\nthree mississipi\n\nA blockquote :\n\nOh ! What a nice blockquote you have here. Much more wonderful than a classical Lorem Ipsum, really.\n\nAnd we could also include links or simply URLs like this : https://www.r-project.org/\nAn incredibly complex equation :\n\\[ y = \\sqrt{\\frac{1}{x + \\beta}} \\]"
-  },
-  {
-    "objectID": "intro.html#figures",
-    "href": "intro.html#figures",
-    "title": "1  Introduction",
-    "section": "1.3 Figures",
-    "text": "1.3 Figures\nHere is an histogram.\n\nlibrary(ggplot2)\nggplot(data = penguins) +\n    geom_histogram(aes(x = body_mass_g)) +\n    facet_grid(species ~ .)\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_bin()`).\n\n\n\n\n\nAnd a wonderful scatterplot, with a caption.\n\nggplot(data = penguins) +\n    geom_point(aes(x = bill_length_mm, y = bill_depth_mm))\n\nWarning: Removed 2 rows containing missing values (`geom_point()`).\n\n\n\n\n\nThis is a scatterplot\n\n\n\n\n\n1.3.1 Callouts\n\n\n\n\n\n\nNote\n\n\n\nThis is a note callout\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThis is a warning callout\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is an important callout\n\n\n\n\n\n\n\n\nDanger\n\n\n\nThis is a caution callout\n\n\n\n\n\n\n\n\nTip\n\n\n\nThis is a tip callout\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "intro.html#footnotes",
-    "href": "intro.html#footnotes",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "With a footnote↩︎"
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
