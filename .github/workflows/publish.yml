@@ -7,7 +7,6 @@ name: Publish examples
 
 jobs:
   build-deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -54,23 +53,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Copy examples
+        run: |
+          mkdir gh_root && \
+          cp -rp examples/book/_book gh_root/book && \
+          cp -rp examples/website/_site gh_root/website && \
+          cp -p examples/document/bookup.html gh_root/
+
       - name: Deploy book
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: examples/book/_book
+          folder: gh_root
           token: ${{ secrets.GITHUB_TOKEN }}
-          target-folder: book/
-
-      - name: Deploy website
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: examples/website/_site
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target-folder: website/
-
-      - name: Deploy single document
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: examples/document
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target-folder: document/
