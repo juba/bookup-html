@@ -72,3 +72,4 @@ jobs:
         with:
           folder: examples/document
           token: ${{ secrets.GITHUB_TOKEN }}
+          target-folder: document/
