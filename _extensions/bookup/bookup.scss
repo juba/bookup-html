@@ -146,7 +146,7 @@ $h4-font-size: 1.25em;
 }
 
 
-/* Margin sidebar (Toc) */
+/* Table of contents */
 
 #quarto-margin-sidebar,
 #quarto-content .margin-sidebar {
@@ -178,6 +178,42 @@ $h4-font-size: 1.25em;
         opacity: 85%;
     }
 }
+
+/* toc-location: body */
+#quarto-document-content #TOC {
+
+    margin-bottom: 3em;
+
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 0.3em;
+    }
+
+    >ul {
+        margin-left: 1em;
+    }
+
+    ul {
+        border-left: 1px solid var(--toc-border-color);
+        list-style-type: none;
+        font-size: 95%;
+
+        li {
+            &::before {
+                content: "";
+            }
+
+            margin-bottom: 0;
+        }
+    }
+
+    ul ul {
+        padding-left: 1.5em;
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
 
 
 /* Content */
