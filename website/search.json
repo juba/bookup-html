@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "page.html",
+    "href": "page.html",
+    "title": "Page",
+    "section": "",
+    "text": "This is a very nice website page."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
