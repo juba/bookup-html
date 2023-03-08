@@ -1,0 +1,11 @@
+Package: placeholder
+Type: Quarto custom format
+Title: bookup-html
+Encoding: UTF-8
+Date: 2023-03-08
+Version: 0.0.1
+Depends:
+    knitr,
+    palmerpenguins,
+    DT,
+    ggplot2
