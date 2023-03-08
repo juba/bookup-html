@@ -1,17 +1,15 @@
 ---
 title: ""
 author: ""
-date: last-modified
+date: today
 format:
-  bookup-html:
-    embed-fonts: true
+  bookup-html
+toc: true
 ---
-
-# Title 1
 
 ## Introduction
 
-*TODO* Create an example file that demonstrates the formatting and features of your format.
+This is a default template for the `bookup-html` custom quarto format.
 
 ## More Information
 
