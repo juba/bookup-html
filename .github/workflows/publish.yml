@@ -7,6 +7,7 @@ name: Publish examples
 
 jobs:
   build-deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
