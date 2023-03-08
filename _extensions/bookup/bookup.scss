@@ -380,17 +380,16 @@ $h4-font-size: 1.25em;
             }
         }
 
-        thead,
-        tr:last-child {
-            border-bottom: 1px solid var(--table-out-borders);
-        }
-
         th,
         td {
             padding: .3em 1em;
         }
 
         tbody {
+
+            border-top: 1px solid var(--table-out-borders);
+            border-bottom: 1px solid var(--table-out-borders);
+
             tr:hover {
                 background-color: var(--table-tr-hover) !important;
                 box-shadow: none !important;
