@@ -3,7 +3,8 @@ title: ""
 author: ""
 date: today
 format:
-  bookup-html
+  bookup-html:
+    embed-fonts: false
 toc: true
 ---
 
