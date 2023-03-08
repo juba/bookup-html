@@ -1,8 +1,8 @@
 ---
-title: "Home"
+title: "Sample bookup-html website project"
 ---
 
-# Introduction
+# Welcome
 
 This is a sample quarto website project using the `bookup-html` custom [quarto](https://quarto.org) format.
 

@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Sample bookup-html website project"
+  title: "Bookup website"
   search: true
   reader-mode: true
   navbar:
