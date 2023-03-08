@@ -11,7 +11,7 @@ self-contained: true
 
 This is a sample document using the `bookup-html` custom [quarto](https://quarto.org) format.
 
-You can learn more on this format and how to use it in the [bookup-html Github repository](https://github.com/juba/bookup-html).
+You can learn more about this format and how to use it in the [bookup-html Github repository](https://github.com/juba/bookup-html).
 
 
 ```{r}
