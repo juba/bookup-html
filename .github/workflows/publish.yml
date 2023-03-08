@@ -36,18 +36,39 @@ jobs:
           cache: true
           cache-version: 2
 
-      - name: Render and Publish book
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render book
+        uses: quarto-dev/quarto-actions/render@v2
         with:
-          target: gh-pages
           path: "examples/book"
+
+      - name: Render website
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: "examples/website"
+
+      - name: Render example document
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: "examples/document/bookup.qmd"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Render and Publish website
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Deploy book
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target: gh-pages
-          path: "examples/website"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          folder: examples/book/_book
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target-folder: book/
+
+      - name: Deploy website
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: examples/website/_site
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target-folder: website/
+
+      - name: Deploy single document
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: examples/document
+          token: ${{ secrets.GITHUB_TOKEN }}
