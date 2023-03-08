@@ -670,15 +670,22 @@ $h4-font-size: 1.25em;
 }
 
 
-/* Header secondary nav bottom border */
+/* Header secondary nav */
 
 header {
     .quarto-secondary-nav {
+        background-color: var(--bs-body-bg);
+        color: var(--bs-body-color);
         border-bottom: 1px solid var(--header-footer-border);
+
+        a,
+        .btn {
+            color: var(--bs-body-color) !important;
+        }
     }
 }
 
-/* Footer top border */
+/* Footer */
 
 body:not(.floating) {
     .nav-footer {
