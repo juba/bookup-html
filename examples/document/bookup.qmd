@@ -27,12 +27,13 @@ Here is a sample code chunk, just to show that syntax highlighting works as expe
 #| echo: true
 #| eval: true
 say_hello <- function(name) {
-    paste("Hello,", name, "!")
+    paste("Hello,", name, "!")  # <1>
 }
 
-say_hello("world")
+say_hello("world") # <2>
 ```
-
+1. Quite an original example.
+2. This is were all the action is happening.
 
 ### Verbatim
 
