@@ -3,14 +3,30 @@
 [![Publish examples](https://github.com/juba/bookup-html/actions/workflows/publish.yml/badge.svg)](https://github.com/juba/bookup-html/actions/workflows/publish.yml)
 
 
-`bookup` is a custom [quarto](https://quarto.org) HTML format based on the Roboto font family. It provides both a light and dark theme, and should be suitable for single documents, book projects and website projects.
+`bookup` is a custom [quarto](https://quarto.org) HTML format based on the Roboto font family. It provides both a light and a dark theme, and should be suitable for single documents, book projects and website projects.
 
 ## Screenshots
 
+### Single document
 
-<img src="screenshots/single_light.png" style="width: 250px; border: 1px solid #AAA;">
-<img src="screenshots/single_dark.png" style="width: 250px; border: 1px solid #AAA;">
+Single document, light and dark themes ([live example](https://juba.github.io/bookup.html)):
 
+[![Single document light theme screenshot](screenshots/single_light.png)](https://juba.github.io/bookup.html)
+
+[![Single document dark theme screenshot](screenshots/single_dark.png)](https://juba.github.io/bookup.html)
+
+### Book project
+
+Book project with a docked sidebar ([live example](https://juba.github.io/book/)):
+
+[![Book project screenshot](screenshots/book_light.png)](https://juba.github.io/book/)
+
+
+### Website project
+
+Website project with a floating sidebar ([live example](https://juba.github.io/website/)):
+
+[![Website project screenshot](screenshots/website_dark.png)](https://juba.github.io/website/)
 
 ## Installation and usage
 
