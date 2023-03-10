@@ -349,6 +349,7 @@ $h4-font-size: 1.25em;
             border: var(--figure-img-border);
             box-shadow: var(--figure-img-shadow);
             max-width: 100%;
+            height: auto;
         }
 
         figcaption {
