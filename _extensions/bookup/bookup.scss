@@ -283,7 +283,7 @@ $h4-font-size: 1.25em;
         text-decoration: none;
     }
 
-    a:hover,
+    a:not(.nav-link):hover,
     .btn-link:hover {
         text-decoration: underline;
     }
@@ -548,18 +548,18 @@ $h4-font-size: 1.25em;
 
     /* Lists */
 
-    ul {
+    ul:not(.nav) {
         margin: 0 0 1.5em 0;
         padding: 0 0 0 2em;
         list-style-type: none;
     }
 
-    ul>li {
+    ul:not(.nav)>li {
         text-indent: -1.1em;
         margin-bottom: .5em;
     }
 
-    ul>li::before {
+    ul:not(.nav)>li::before {
         content: "— ";
     }
 
