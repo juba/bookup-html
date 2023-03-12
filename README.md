@@ -13,9 +13,9 @@ Single document, light theme ([live example](https://juba.github.io/bookup-html/
 
 [![Single document light theme screenshot](screenshots/single_light.png)](https://juba.github.io/bookup-html/bookup.html)
 
-Single document, dark theme ([live example](https://juba.github.io/bookup-html/bookup.html)):
+Single document, dark theme ([live example](https://juba.github.io/bookup-html/bookup-dark.html)):
 
-[![Single document dark theme screenshot](screenshots/single_dark.png)](https://juba.github.io/bookup-html/bookup.html)
+[![Single document dark theme screenshot](screenshots/single_dark.png)](https://juba.github.io/bookup-html/bookup-dark.html)
 
 ### Book project
 
@@ -54,11 +54,26 @@ Even simpler, you can also directly install the extensions and generate a sample
 quarto use template juba/bookup-html
 ```
 
+## Dark and light variants
+
+**Warning :** this will only work with quarto version 1.3 or higher.
+
+By default, your document will be displayed with the light theme, with a toggle allowing to switch to the dark theme.
+
+If you want to change this behavior you can add a variant to the format name:
+
+| Format name             | Theme used                                  |
+| ----------------------- | ------------------------------------------- |
+| `bookup-html` (default) | Light theme by default, optional dark theme |
+| `bookup-html+dark`      | Dark theme by default, optional light theme |
+| `bookup-html+lightonly` | Light theme only                            |
+| `bookup-html+darkonly`  | Dark theme only                             |
+
 
 ## Format Options
 
 
-Currently `bookup` provides the following options:
+Currently `bookup` provides the following option:
 
 - `embed-fonts` : if set to `true`, fonts are included locally with the document. If set to `false`, they are downloaded from Google Web Fonts. Not that if you use `self-contained: true`, fonts are embedded inside the resulting HTML even if `embed-fonts` is `false`.
 
