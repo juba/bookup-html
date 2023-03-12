@@ -7,28 +7,58 @@
 
 ## Screenshots
 
-### Single document
+<table>
+<tbody>
+<tr>
+<td>
 
-Single document, light theme ([live example](https://juba.github.io/bookup-html/bookup.html)):
+Single document, light theme<br>([live example](https://juba.github.io/bookup-html/bookup.html))
+
+</td>
+<td>
 
 [![Single document light theme screenshot](screenshots/single_light.png)](https://juba.github.io/bookup-html/bookup.html)
 
-Single document, dark theme ([live example](https://juba.github.io/bookup-html/bookup-dark.html)):
+</td>
+</tr>
+<tr>
+<td>
+
+Single document, dark theme<br>([live example](https://juba.github.io/bookup-html/bookup-dark.html))
+
+</td>
+<td>
 
 [![Single document dark theme screenshot](screenshots/single_dark.png)](https://juba.github.io/bookup-html/bookup-dark.html)
 
-### Book project
+</td>
+</tr>
+<tr>
+<td>
 
-Book project with a docked sidebar, light theme ([live example](https://juba.github.io/bookup-html/book/)):
+Book project with a docked sidebar, light theme<br>([live example](https://juba.github.io/bookup-html/book/))
+
+</td>
+<td>
 
 [![Book project screenshot](screenshots/book_light.png)](https://juba.github.io/bookup-html/book/)
 
+</td>
+</tr>
+<tr>
+<td>
 
-### Website project
+Website project with a floating sidebar, dark theme<br>([live example](https://juba.github.io/bookup-html/website/))
 
-Website project with a floating sidebar, dark theme ([live example](https://juba.github.io/bookup-html/website/)):
+</td>
+<td>
 
 [![Website project screenshot](screenshots/website_dark.png)](https://juba.github.io/bookup-html/website/)
+
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Installation and usage
 
