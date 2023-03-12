@@ -7,43 +7,28 @@
 
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap;">
-<p style="width: 40%">
+### Single document
 
 Single document, light theme ([live example](https://juba.github.io/bookup-html/bookup.html)):
 
-<a href="https://juba.github.io/bookup-html/bookup.html">
-<img src="screenshots/single_light.png" alt="Single document light theme screenshot" style="width: 40%;" />
-</a>
-<p>
-
-<p style="width: 40%">
+[![Single document light theme screenshot](screenshots/single_light.png)](https://juba.github.io/bookup-html/bookup.html)
 
 Single document, dark theme ([live example](https://juba.github.io/bookup-html/bookup-dark.html)):
 
-<a href="https://juba.github.io/bookup-html/bookup-dark.html">
-<img src="screenshots/single_dark.png" alt="Single document dark theme screenshot" style="width: 40%;" />
-</a>
-</p>
+[![Single document dark theme screenshot](screenshots/single_dark.png)](https://juba.github.io/bookup-html/bookup-dark.html)
 
-<p style="width: 40%">
+### Book project
 
 Book project with a docked sidebar, light theme ([live example](https://juba.github.io/bookup-html/book/)):
 
-<a href="https://juba.github.io/bookup-html/book/">
-<img src="screenshots/book_light.png" alt="Book project screenshot" style="width: 40%;" />
-</a>
-</p>
+[![Book project screenshot](screenshots/book_light.png)](https://juba.github.io/bookup-html/book/)
 
-<p style="width: 40%">
+
+### Website project
 
 Website project with a floating sidebar, dark theme ([live example](https://juba.github.io/bookup-html/website/)):
 
-<a href="https://juba.github.io/bookup-html/website/">
-<img src="screenshots/website_dark.png" alt="Website project screenshot" style="width: 40%;" />
-</a>
-</p>
-</div>
+[![Website project screenshot](screenshots/website_dark.png)](https://juba.github.io/bookup-html/website/)
 
 ## Installation and usage
 
