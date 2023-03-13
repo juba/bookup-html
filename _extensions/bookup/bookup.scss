@@ -618,6 +618,9 @@ $h4-font-size: 1.25em;
 
     .callout-warning {
         background-color: var(--callout-warning-bg);
+        border-top-color: var(--callout-warning-bg);
+        border-right-color: var(--callout-warning-bg);
+        border-bottom-color: var(--callout-warning-bg);
 
         .callout-header {
             color: var(--callout-warning-title);
@@ -626,6 +629,10 @@ $h4-font-size: 1.25em;
 
     .callout-note {
         background-color: var(--callout-note-bg);
+        border-top-color: var(--callout-note-bg);
+        border-right-color: var(--callout-note-bg);
+        border-bottom-color: var(--callout-note-bg);
+
 
         .callout-header {
             color: var(--callout-note-title);
@@ -634,6 +641,9 @@ $h4-font-size: 1.25em;
 
     .callout-important {
         background-color: var(--callout-important-bg);
+        border-top-color: var(--callout-important-bg);
+        border-right-color: var(--callout-important-bg);
+        border-bottom-color: var(--callout-important-bg);
 
         .callout-header {
             color: var(--callout-important-title);
@@ -642,6 +652,9 @@ $h4-font-size: 1.25em;
 
     .callout-caution {
         background-color: var(--callout-caution-bg);
+        border-top-color: var(--callout-caution-bg);
+        border-right-color: var(--callout-caution-bg);
+        border-bottom-color: var(--callout-caution-bg);
 
         .callout-header {
             color: var(--callout-caution-title);
@@ -650,6 +663,9 @@ $h4-font-size: 1.25em;
 
     .callout-tip {
         background-color: var(--callout-tip-bg);
+        border-top-color: var(--callout-tip-bg);
+        border-right-color: var(--callout-tip-bg);
+        border-bottom-color: var(--callout-tip-bg);
 
         .callout-header {
             color: var(--callout-tip-title);
