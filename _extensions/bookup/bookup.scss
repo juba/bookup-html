@@ -57,6 +57,9 @@ $h4-font-size: 1.25em;
     --callout-tip-bg: #e8f3ee;
     --callout-tip-title: #050;
 
+    --listing-card-border: #a1a7ac;
+    --listing-card-shadow: rgba(0, 0, 0, 0.04);
+    --listing-card-shadow-hover: rgba(0, 0, 0, 0.1);
 }
 
 .table,
@@ -721,10 +724,39 @@ header {
     }
 }
 
+
 /* Footer */
 
 body:not(.floating) {
     .nav-footer {
         border-top: 1px solid var(--header-footer-border);
+    }
+}
+
+
+/* Listings */
+
+#quarto-document-content {
+    .quarto-listing {
+        a {
+            color: currentColor;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .card {
+            box-shadow: 0 16px 16px var(--listing-card-shadow);
+            transition: all 0.3s ease-out;
+            background-color: var(--bs-body-bg);
+            color: var(--bs-body-color);
+            border-color: var(--listing-card-border);
+
+            &:hover {
+                transform: translateY(-5px) scale(1.005) translateZ(0);
+                box-shadow: 0 26px 26px var(--listing-card-shadow-hover);
+            }
+        }
     }
 }
