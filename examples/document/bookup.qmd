@@ -14,4 +14,4 @@ This is a sample document using the `bookup-html` custom [quarto](https://quarto
 You can learn more about this format and how to use it in the [bookup-html Github repository](https://github.com/juba/bookup-html).
 
 
-{{< include ../_content.qmd >}}
+{{< include ../_sample.qmd >}}

@@ -2,5 +2,5 @@
 title: "Sample page"
 ---
 
-{{< include ../_content.qmd >}}
+{{< include ../_sample.qmd >}}
 
