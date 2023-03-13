@@ -39,7 +39,7 @@ $h4-font-size: 1.25em;
     --header-footer-border: #dee2e6;
 
     --table-tr-border: #dee2e6;
-    --table-out-borders: #aaa;
+    --table-out-borders: #666;
     --table-tr-hover: rgba(0, 0, 0, 0.07);
 
     --reader-toggle-bg: #fafafa;
@@ -377,9 +377,6 @@ $h4-font-size: 1.25em;
         margin-right: auto;
 
         thead {
-            border-top: 1px solid var(--table-out-borders);
-            background-color: var(--bs-body-bg);
-
             th {
                 box-shadow: none;
             }
@@ -390,10 +387,23 @@ $h4-font-size: 1.25em;
             padding: .3em 1em;
         }
 
+        thead,
         tbody {
+            tr {
+                border-top: none;
+            }
 
-            border-top: 1px solid var(--table-out-borders);
-            border-bottom: 1px solid var(--table-out-borders);
+            tr:first-child {
+                border-top: 1px solid var(--table-out-borders);
+            }
+
+            tr:last-child {
+                border-bottom: 1px solid var(--table-out-borders);
+            }
+        }
+
+        tbody {
+            border-top: none;
 
             tr:hover {
                 background-color: var(--table-tr-hover) !important;
