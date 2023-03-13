@@ -7,9 +7,9 @@
 library(knitr)
 ```
 
-## Code and tables
+# Code and tables
 
-### Syntax highlighting
+## Syntax highlighting
 
 Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.
 
@@ -26,7 +26,7 @@ say_hello("world") # <2>
 1. Quite an original example.
 2. This is were all the action is happening.
 
-### Verbatim
+## Verbatim
 
 Here is the structure of the `penguins` dataset.
 
@@ -37,7 +37,7 @@ library(palmerpenguins)
 str(penguins)
 ```
 
-### Table
+## Tables
 
 Sample table output.
 
@@ -56,7 +56,7 @@ DT::datatable(penguins)
 ```
 
 
-## Styling
+# Styling
 
 A simple list : 
 
@@ -76,7 +76,7 @@ An incredibly complex equation :
 $$ y = \sqrt{\frac{1}{x + \beta}} $$
 
 
-## Figures
+# Figures
 
 Here is an histogram.
 
@@ -100,9 +100,7 @@ ggplot(data = penguins) +
 ```
 
 
-## Callouts
-
-
+# Callouts
 
 ::: {.callout-note}
 This is a note callout.
@@ -124,3 +122,16 @@ This is a caution callout
 This is a tip callout.With a bit of `code`.
 :::
 
+# Tabset
+
+:::{.panel-tabset}
+
+## First tab
+
+This is the first tab content.
+
+## Second tab
+
+This is the second tab content.
+
+:::
