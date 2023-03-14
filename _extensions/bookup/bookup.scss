@@ -77,6 +77,13 @@ $h4-font-size: 1.25em;
 }
 
 
+/* Global styles */
+
+p {
+    margin-bottom: 0.85em;
+}
+
+
 /* Sidebar */
 
 #quarto-sidebar,
@@ -298,11 +305,6 @@ $h4-font-size: 1.25em;
     strong {
         font-weight: bold;
     }
-
-    p {
-        margin-bottom: 0.85em;
-    }
-
 
     /* Headings */
 
@@ -724,6 +726,14 @@ header {
     }
 }
 
+
+/* Footnotes */
+
+#footnotes {
+    .footnote-back {
+        font-family: var(--bs-font-monospace);
+    }
+}
 
 /* Footer */
 
