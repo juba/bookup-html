@@ -121,6 +121,10 @@ p {
         margin-bottom: .7em;
     }
 
+    .sidebar-item+.sidebar-item-section {
+        margin-top: 1.2em;
+    }
+
     .sidebar-item-section>.sidebar-item-container:first-child a,
     .sidebar-item-section>.sidebar-item-container:first-child a.active,
     .sidebar-item-section>.sidebar-item-container:first-child a:hover {
