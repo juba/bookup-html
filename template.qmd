@@ -4,7 +4,7 @@ author: ""
 date: today
 format:
   bookup-html:
-    embed-fonts: false
+    embed-fonts: true
 toc: true
 ---
 

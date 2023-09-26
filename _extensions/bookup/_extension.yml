@@ -7,7 +7,7 @@ contributes:
     common:
       toc: true
       filters: [embed-fonts.lua]
-      embed-fonts: false
+      embed-fonts: true
     html:
       theme:
         light: [bookup.scss]
