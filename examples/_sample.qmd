@@ -33,6 +33,7 @@ Here is the structure of the `penguins` dataset.
 ```{r}
 #| label: penguins_str
 #| echo: true
+#| code-line-numbers: true
 library(palmerpenguins)
 str(penguins)
 ```
