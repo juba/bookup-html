@@ -4,55 +4,86 @@
     "href": "index.html",
     "title": "Sample bookup-html book project",
     "section": "",
-    "text": "1 Introduction\nThis is a sample quarto book project using the bookup-html custom quarto format.\nYou can learn more on this format and how to use it in the bookup-html Github repository."
+    "text": "1 Introduction\nThis is a sample quarto book project using the bookup-html custom quarto format.\nYou can learn more on this format and how to use it in the bookup-html Github repository.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "sample.html",
     "href": "sample.html",
     "title": "2  Features overview",
     "section": "",
-    "text": "3 Code and tables\nA simple list :\nA blockquote :\nAnd we could also include links or simply URLs like this : https://www.r-project.org/1.\nAn incredibly complex equation :\n\\[ y = \\sqrt{\\frac{1}{x + \\beta}} \\]\nHere is an histogram.\nlibrary(ggplot2)\nggplot(data = penguins) +\n    geom_histogram(aes(x = body_mass_g)) +\n    facet_grid(rows = vars(species))\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_bin()`).\nAnd a wonderful scatterplot, with a caption.\nggplot(data = penguins) +\n    geom_point(\n        aes(x = bill_length_mm, y = bill_depth_mm)\n    )\n\nWarning: Removed 2 rows containing missing values (`geom_point()`).\n\n\n\n\n\nThis is a scatterplot"
+    "text": "3 Code and tables",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Features overview</span>"
+    ]
   },
   {
     "objectID": "sample.html#syntax-highlighting",
     "href": "sample.html#syntax-highlighting",
     "title": "2  Features overview",
     "section": "3.1 Syntax highlighting",
-    "text": "3.1 Syntax highlighting\nHere is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\""
+    "text": "3.1 Syntax highlighting\nHere is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\"",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Features overview</span>"
+    ]
   },
   {
     "objectID": "sample.html#verbatim",
     "href": "sample.html#verbatim",
     "title": "2  Features overview",
     "section": "3.2 Verbatim",
-    "text": "3.2 Verbatim\nHere is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ..."
+    "text": "3.2 Verbatim\nHere is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Features overview</span>"
+    ]
   },
   {
     "objectID": "sample.html#tables",
     "href": "sample.html#tables",
     "title": "2  Features overview",
     "section": "3.3 Tables",
-    "text": "3.3 Tables\nSample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)"
+    "text": "3.3 Tables\nSample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Features overview</span>"
+    ]
   },
   {
     "objectID": "sample.html#footnotes",
     "href": "sample.html#footnotes",
     "title": "2  Features overview",
     "section": "",
-    "text": "And even footnotes↩︎"
+    "text": "And even footnotes↩︎",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Features overview</span>"
+    ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "3  An empty page",
     "section": "",
-    "text": "In summary, this book has no content whatsoever."
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>An empty page</span>"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Appendices",
+      "References"
+    ]
   }
 ]

@@ -1,51 +1,86 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sample bookup-html website project",
+    "section": "",
+    "text": "Welcome\nThis is a sample quarto website project using the bookup-html custom quarto format.\nYou can learn more on this format and how to use it in the bookup-html Github repository.",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample bookup-html website project"
+    ]
+  },
+  {
     "objectID": "page.html",
     "href": "page.html",
     "title": "Sample page",
     "section": "",
-    "text": "Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\"\n\n\n\n\n\nHere is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...\n\n\n\n\n\nSample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)"
+    "text": "Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\"\n\n\n\n\n\nHere is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...\n\n\n\n\n\nSample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample page"
+    ]
   },
   {
     "objectID": "page.html#syntax-highlighting",
     "href": "page.html#syntax-highlighting",
     "title": "Sample page",
     "section": "",
-    "text": "Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\""
+    "text": "Here is a sample code chunk, just to show that syntax highlighting works as expected as well as code annotations.\n\nsay_hello &lt;- function(name) {\n1    paste(\"Hello,\", name, \"!\")\n}\n\n2say_hello(\"world\")\n\n\n1\n\nQuite an original example.\n\n2\n\nThis is were all the action is happening.\n\n\n\n\n[1] \"Hello, world !\"",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample page"
+    ]
   },
   {
     "objectID": "page.html#verbatim",
     "href": "page.html#verbatim",
     "title": "Sample page",
     "section": "",
-    "text": "Here is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ..."
+    "text": "Here is the structure of the penguins dataset.\n\nlibrary(palmerpenguins)\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample page"
+    ]
   },
   {
     "objectID": "page.html#tables",
     "href": "page.html#tables",
     "title": "Sample page",
     "section": "",
-    "text": "Sample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)"
+    "text": "Sample table output.\n\ntab &lt;- table(penguins$island, penguins$species)\nkable(tab)\n\n\n\n\n\nAdelie\nChinstrap\nGentoo\n\n\n\n\nBiscoe\n44\n0\n124\n\n\nDream\n56\n68\n0\n\n\nTorgersen\n52\n0\n0\n\n\n\n\n\nSample DT:datatable output.\n\nlibrary(DT)\nDT::datatable(penguins)",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample page"
+    ]
   },
   {
     "objectID": "page.html#footnotes",
     "href": "page.html#footnotes",
     "title": "Sample page",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnd even footnotes↩︎"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sample bookup-html website project",
-    "section": "",
-    "text": "Welcome\nThis is a sample quarto website project using the bookup-html custom quarto format.\nYou can learn more on this format and how to use it in the bookup-html Github repository."
+    "text": "Footnotes\n\n\nAnd even footnotes↩︎",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "Sample page"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This would be a nice about page if it had any content."
+    "text": "This would be a nice about page if it had any content.",
+    "crumbs": [
+      "Home",
+      "Pages",
+      "About"
+    ]
   }
 ]
