@@ -488,10 +488,7 @@ p {
     /* Code */
 
     pre,
-    code,
-    pre>code {
-        color: var(--code-block-color);
-        background-color: var(--code-block-bg);
+    code {
         font-size: .95em;
 
         a {
@@ -516,28 +513,13 @@ p {
         background-color: var(--code-block-bg);
         border-radius: 6px;
         padding: .8em 1.2em;
-
-        code {
-            overflow: auto;
-        }
-    }
-
-    pre.sourceCode {
-        color: var(--code-block-color);
-        background-color: var(--code-block-bg);
-        margin-top: 0;
-        margin-bottom: 0;
-        color: inherit;
-
-        code {
-            color: inherit;
-            overflow: auto;
-        }
     }
 
     div.sourceCode {
+        color: var(--code-block-color);
+        background-color: var(--code-block-bg);
+        border-radius: 6px;
         margin-bottom: 1.6em;
-        background-color: inherit;
         border: none;
     }
 
