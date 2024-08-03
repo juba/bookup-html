@@ -562,15 +562,14 @@ p {
         list-style-type: none;
     }
 
-    ul:not(.nav)>li {
+    ul:not(.nav):not(.task-list)>li {
         text-indent: -1.1em;
         margin-bottom: .5em;
     }
 
-    ul:not(.nav)>li::before {
+    ul:not(.nav):not(.task-list)>li::before {
         content: "— ";
     }
-
 
 
     /* Callouts */
